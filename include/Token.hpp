@@ -4,13 +4,13 @@
 #include <any>
 #include <string>
 #include "TokenType.hpp"
-
+using namespace std;
 
 struct Token {
-  const TokenType type;
-  const std::string lexeme;
-  const any literal;
-  const int line;
+  TokenType type;
+  std::string lexeme;
+  any literal;
+  int line;
 
   Token(TokenType type, std::string lexeme, any literal, int line)
       : type(type), lexeme(lexeme), literal(literal), line(line) {}

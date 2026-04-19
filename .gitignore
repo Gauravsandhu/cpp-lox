@@ -5,3 +5,6 @@ main
 *.out
 *.o
 .DS_Store
+.vscode/
+
+*.dSYM/
