@@ -1,4 +1,4 @@
-#include "AstPrinter.hpp"
+#include "../include/AstPrinter.hpp"
 
 // 1. Literal Base Case
 std::any AstPrinter::visit(Literal& expr) {
